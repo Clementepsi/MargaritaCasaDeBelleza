@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+header nav {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 0;
+    flex-wrap: wrap;
+    font-size: 29px;
+    background-color: #FDFFFC;
+}
+.navLinks{
+    list-style: none;
+    display: flex;
+    float: left;
+}
+.navLinks2{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+.logo {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 30px;
+    margin-top: 7px;
+    float: left;
+    width: 5%;
+}
+.navLinks li a{
+    text-decoration: none;
+    margin: 6px 20px;
+    float: left;
+    color: black;
+}
+.navLinks2 li a{
+    text-decoration: none;
+    margin: 6px 20px;
+    float: right;
+    color: black;
+}
