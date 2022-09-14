@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville',sans-serif;
+}
+.container1,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+    width: 100%;
+    padding-right:var(--bs-gutter-x,.75rem);
+    padding-left:var(--bs-gutter-x,.75rem);
+    margin-right:0;
+    margin-left:0;
+}
+.container2,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+    width:100%;
+    padding-right:var(--bs-gutter-x,.75rem);
+    padding-left:var(--bs-gutter-x,.75rem);
+    margin-right:0;
+    margin-left:0;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+.imagen,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+    width: 100%;
+    padding-right:var(--bs-gutter-x,.75rem);
+    padding-left:var(--bs-gutter-x,.75rem);
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.forms,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+    width: 100%;
+    padding-right:var(--bs-gutter-x,.75rem);
+    padding-left:var(--bs-gutter-x,.75rem);
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+.background { 
+    text-align: center;
+    font-size: 22px;
+    color: #FDFFFC;
+    margin: 0%;
+}
+.backleaf{
+    background-image: url(./Assets/fondoc.png);
+}
+.formContact {
+    display: grid;
+    font-family: 'Inter', sans-serif;
+    gap: 20px;
+    padding: 30px 50px 40px 50px ;
+    margin: 2rem 3rem;
+    grid-template-rows: 1fr auto 1fr;
+    border-radius: 20px;
+    background-color: #FDFFFC;
+    border-bottom: #1a2b5a;
+    color: black;
+    
+}
+.formInput{
+    font-family: 'Inter', sans-serif;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 60px 0px 0px 0px;
+}
+.buttonContact {
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    justify-content: center;
+    border-radius: 10px;
+    height: 35px;
+    background-color:  #ceaf6d;;
+    border-color: #ceaf6d;
+}
+.button{
+    background-color:#CEAF6D !important;
+  }
+.nav2 {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.contactotitulo{
+    font-family: 'Inter', sans-serif;
+}
+
+.falla{
+    visibility: visible;
+    font-family:'Inter', sans-serif;
+    font-size: small;
+    color:crimson;
+}
+.title {
+    color: #CEAF6D !important; 
+  }
+#navbarDropdown{
+    color: black;
+   
+  }
+.buttonHead{
+    background-color:#CEAF6D !important;
+    border: #1A2C5A ;
+    color: white !important;
+  }
+header{
+    font-family: 'Inter', sans-serif;
+    color :black !important;
+}
