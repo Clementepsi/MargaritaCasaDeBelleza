@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margarita Casa de Belleza</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#">
+          <span class="text-primary fs 5 fw-bold title title-text">MCDB</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active title-text title-text"  onclick="onClickCategory('')" aria-current="page" href="#">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active title-text" href="#">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active title-text" href="#">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2 title-text" type="busqueda" placeholder="Búsqueda" aria-label="Búsqueda">
+            <button type="button" class="btn btn-outline-primary button title-text">Unirse</button>
+            <button type="button" class="btn btn-outline-primary button title-text">Registro</button>
+            <button type="button" class="btn btn-outline-primary button"> <a href="#"
+                class="text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid" id="container-landing" style="min-height: 100vh; background-color: #FFF;">
+    <div class="container"> 
+      <!-- Agregar la wea de  el inicio-->
+
+      <div class="row g-0 bg-light position-relative">
+
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0"><font style="vertical-align: inherit" >HOY, SE AUTENTICA </font></h5>
+          <h5 class="mt-0">Keratina a base de miel y chocolate</h5>
+          <p><font style="vertical-align: inherit;">No se enjuaga para que sus activos continúen reparando y es ideal para cabello extremadamente dañado, seco, poroso y sobre procesado. Fórmula inteligente que rellena, repara y sella las zonas débiles, porosas y dañadas del cabello, en un solo paso y sin enjuague</font></p>
+          <a href="#" class="stretched-link"><font style="vertical-align: inherit;">Ir a alguna parte </font></a>
+        </div>
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="/Assets/keratina_artesanal.png" width="80%" height="60%" fill="#868e96">
+      </div>
+      </div>
+      </div>
+  </div>
+
+  <div class="container-fluid" style="margin-top: 20vh;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-sm-3 col-xs-12">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action" onclick="onClickCategory('jabones')" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Jabones</a>
+            <a class="list-group-item list-group-item-action" onclick="onClickCategory('cabello')" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Cabello</a>
+            <a class="list-group-item list-group-item-action" onclick="onClickCategory('skinCare')" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Skincare</a>
+            <a class="list-group-item list-group-item-action" onclick="onClickCategory('paraEllos')" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Para Ellos</a>
+           </div>
+        </div>
+        <div id="product-container" class="col-md-10 col-sm-9 col-xs-12">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-ft footer">
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Aviso de privacidad</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contactanos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2022 Margarita Casa de la Belleza, Inc</p>
+      </footer>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+      <script src="/index.js" ></script>
+</body>
+
+</html>
