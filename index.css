@@ -113,3 +113,30 @@ body {
     width: 100%;
     bottom: 0;
 }
+
+.landing-image{
+    height: auto !important;
+    min-height: 95vh !important;
+    width: 100% !important;
+    object-fit: fill;
+}
+
+.landing-content{
+    flex-direction: column;
+    max-width: 75%;
+    color: #FFF;
+    min-height: 95vh !important;
+}
+
+.landing-title{
+    font-size: 6.5rem;
+}
+
+.landing-text{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.landing-btn{
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
