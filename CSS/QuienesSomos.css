@@ -1,0 +1,79 @@
+
+body {
+  background-color: #1A2C5A;
+  color: white !important;
+  font-family: 'Poppins', sans-serif;
+}
+.title {
+  color: #CEAF6D !important; 
+}
+#navbarDropdown{
+  color: black;
+ 
+}
+.button{
+  background-color:#CEAF6D !important;
+  border: #1A2C5A ;
+  color: white !important;
+}
+header{
+  font-family: 'Inter', sans-serif;
+  color :black !important;
+}
+.text__description{
+  text-align: justify center;
+}
+.titulo{
+  margin-bottom: 50px;
+}
+.descripcion{
+  margin-top: 200px;
+  font-size: 32px;
+}
+.imagen__margarita{
+  background-color: white;
+  border-radius: 20px;
+  border-color: #CEAF6D;
+  margin-left: 100px;
+  width: 293px;
+}
+
+.second__section{
+  margin-top: 150px;
+  text-align: justify;
+  padding: 0 50px;
+}
+.third__container{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.creadores__texto{
+  padding: 0 50px;
+}
+.third__container--title{
+  margin-bottom: 20px;
+}
+
+.fourth__container{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.fourth__texto{
+  padding: 0 50px;
+  margin-bottom: 200px;
+}
+.fourth__container--title{
+  margin-bottom: 20px;
+}
+
+.pie {
+  background-color: rgb(236, 234, 234) !important;
+  font-family: 'Inter', sans-serif;
+}
+
