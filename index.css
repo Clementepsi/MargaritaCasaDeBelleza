@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&family=Poppins:wght@400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+header nav {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 0;
+    flex-wrap: wrap;
+    font-size: 29px;
+    background-color: #FDFFFC;
+}
+
+body {
+    background-color: #1a2c5a;
+    min-height: 100vh;
+}
+
+.title {
+    color: #CEAF6D !important; 
+  }
+  #navbarDropdown{
+    color: black;
+  }
+  .button{
+    background-color:#CEAF6D !important;
+    border: #1A2C5A ;
+    color: white !important;
+  }
+  header{
+    color :black !important;
+  }
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    float: left;
+}
+
+.navLinks2 {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 30px;
+    margin-top: 7px;
+    float: left;
+    width: 5%;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    margin: 6px 20px;
+    float: left;
+    color: black;
+}
+
+.navLinks2 li a {
+    text-decoration: none;
+    margin: 6px 20px;
+    float: right;
+    color: black;
+}
+
+.promo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(30px, 10px);
+}
+
+.product-image {   
+    aspect-ratio: 4/3;
+    object-fit: fill;
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.2em;
+}
+.card-btn {
+    background-color: #CEAF6D;
+    border: 0px;
+}
+
+.title-text{
+    font-family: 'Inter', sans-serif;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.footer{
+    width: 100%;
+    bottom: 0;
+}
