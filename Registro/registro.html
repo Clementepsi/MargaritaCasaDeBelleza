@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/registroStyle.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <link href="assets/sticky-footer-navbar.css" rel="stylesheet">
+   
+	<link rel="preconnect" href="https://fonts.googleapis.com"><!--letra 700-->
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet"><!--letra 700-->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	
+</head>
+
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container-fluid">
+			<a class="navbar-brand " href="#">
+			  <span class="text-primary fs 5 fw-bold title title-text">MCDB</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+			  aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+				  <a class="nav-link active title-text title-text"  onclick="onClickCategory('')" aria-current="page" href="#">Inicio </a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active title-text" href="#">¿Quienes somos?</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active title-text" href="#">Contacto</a>
+				</li>
+			  </ul>
+			  <form class="d-flex">
+				<input class="form-control me-2 title-text" type="busqueda" placeholder="Búsqueda" aria-label="Búsqueda">
+				<button type="button" class="btn btn button title-text">Unirse</button>
+				<button type="button" class="btn btn button title-text">Registro</button>
+				<button type="button" class="btn btn button"> <a href="#"
+					class="text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button>
+			  </form>
+			</div>
+		  </div>
+		</nav>
+	  </header>
+
+	<div class="img" style="background-image: url(images/fondoc.png);">
+
+		<section class="ftco-section" >
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-6 text-center mb-5">
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-7 col-lg-5">
+						<div class="login-wrap p-4 p-md-5">
+							<div class="img" style="background-image: url(images/LOGO_MARGARITA_FINAL-removebg-preview.png);"></div>
+							<h1 class="text-center mb-4" id="form_top">Crea tu cuenta</h1>
+
+							<form action="#" class="signup-form" id="formRegistro">
+								<div class="form-group mb-3">
+									<label class="label" for="name">Nombre</label>
+									<input id="principalName" type="text" class="form-control " placeholder="Nombre" 
+									required pattern="[A-Za-z]{2,50}"
+									title="Solo se permiten letras. Tamaño mínimo: 2. Tamaño máximo: 50"/>
+
+								</div>
+								<div class="form-group mb-3">
+									<label class="label" for="name">Apellido completo</label>
+									<input id="lastName" type="text" class="form-control" placeholder="Apellido completo" required pattern="[A-Za-z]{2,50}"
+									title="Solo se permiten letras. Tamaño mínimo: 2. Tamaño máximo: 50" />
+
+								</div>
+								<div class="form-group mb-3">
+									<label class="label" for="email">Correo electrónico</label>
+									<input type="email" class="form-control" id="email" placeholder="Ingresa tu correo" value="" >
+									</div>
+								
+									
+								 <div class="form-group mb-3">
+									<label class="label" for="password">Contraseña</label>
+								<div class="input-group">
+									 <input id="txtPassword" type="password" Class="form-control" placeholder="Contraseña"required pattern="[A-Za-z0-9]{7,15}"
+									 title="Letras y números. Tamaño mínimo: 5. Tamaño máximo: 40" />
+								<div class="input-group-append">
+									<button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+									<script type="text/javascript">
+										function mostrarPassword(){
+												var cambio = document.getElementById("txtPassword");
+												if(cambio.type == "password"){
+													cambio.type = "text";
+													$('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+												}else{
+													cambio.type = "password";
+													$('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+												}
+											} 
+											
+											$(document).ready(function () {
+											//CheckBox mostrar contraseña
+											$('#ShowPassword').click(function () {
+												$('#Password').attr('type', $(this).is(':checked') ? 'text' : 'password');
+											});
+										});
+										</script>
+								</div>
+									</div>
+										</div>
+										  	
+								<div class="form-group">
+									<button id="boton_registro" type="submit" class="form-control btn btn-primary submit px-3">Terminar
+										registro</button>
+								</div>
+							</form>
+							<div class="row justify-content-center" style="text-align: center;"><a data-toggle="tab" href="#signin">Ya tengo una cuenta</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+			
+			
+	<div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Aviso de privacidad</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contactanos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 Margarita Casa de la Belleza, Inc</p>
+        </footer> 
+
+			 
+		</section>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/registroMain.js"></script>
+		<script src="dist/js/bootstrap.min.js"></script>
+	</div>
+      </div>
+
+</body>
+
+</html>
