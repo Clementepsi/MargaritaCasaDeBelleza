@@ -170,7 +170,7 @@ function cambiarCantidad(elemento, id) {
 
 function actualizarHtmlTabla(elementos) {
     if (elementos.length === 0) {
-        $('#tblCarrito').html('<tr class="white1"><td colspan="5" class="white1">No hay productos en el carrito</td></tr>');
+        $('#tblCarrito').html('<tr><td colspan="5">No hay productos en el carrito</td></tr>');
         return;
     }
 
@@ -187,21 +187,21 @@ function actualizarHtmlTabla(elementos) {
         totalCarrito += total;
 
         var html =
-        '<tr class="white1">' +
-        '   <td class="white1">' + producto.nombre + '</td>' +
-        '   <td class="white1"><input type="number" class="form-control white1" onchange="cambiarCantidad(event, ' + elemento.id + ')" min="0" value="' + elemento.cantidad + '" /></td>' +
-        '   <td class="text-right white1">$ ' + producto.precio.toFixed(2) + '</td>' +
-        '   <td class="text-right white1">$ ' + total.toFixed(2) + '</td>' +
-        '   <td class="white1"><button class="btn btn-default btn-sm white1" onclick="eliminarProducto(' + elemento.id + ')"><i class="fa fa-trash-o white1"></i></button></td>' +
+        '<tr>' +
+        '   <td>' + producto.nombre + '</td>' +
+        '   <td><input type="number" class="form-control" onchange="cambiarCantidad(event, ' + elemento.id + ')" min="0" value="' + elemento.cantidad + '" /></td>' +
+        '   <td class="text-right">$ ' + producto.precio.toFixed(2) + '</td>' +
+        '   <td class="text-right">$ ' + total.toFixed(2) + '</td>' +
+        '   <td><button class="btn btn-default btn-sm" onclick="eliminarProducto(' + elemento.id + ')"><i class="fa fa-trash-o"></i></button></td>' +
         '</tr>';
 
         $('#tblCarrito').append(html);
     });
 
     var renglonTotal =
-    '<tr class="white1">' +
-    '   <td colspan="3" class="text-right white1"><h4 class="white1">TOTAL EN EL CARRITO:</h4></td>' +
-    '   <td colspan="2" class="white1"><h3 style="margin:0;" class="white1"><label class="label label-success white1">$ ' + totalCarrito.toFixed(2) + '</label></h3></td>' +
+    '<tr>' +
+    '   <td colspan="3" class="text-right"><h4>TOTAL EN EL CARRITO:</h4></td>' +
+    '   <td colspan="2"><h3 style="margin:0;"><label class="label label-success">$ ' + totalCarrito.toFixed(2) + '</label></h3></td>' +
     '</tr>';
 
     $('#tblCarrito').append(renglonTotal);
