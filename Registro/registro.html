@@ -52,13 +52,15 @@
 					  <a class="nav-link active title-text" href="../contacto.html">Contacto</a>
 					</li>
 				  </ul>
-				  <form class="d-flex">
+				
+					<div class="d-flex gap-2">
 					<input class="form-control me-2 title-text" type="busqueda" placeholder="Búsqueda" aria-label="Búsqueda">
-					<a href="../Registro/registroMain.html"><button type="button" class="btn btn-outline-primary button title-text">Unirse</button></a>
-					<a href="../Formulario/Login.html"><button type="button" class="btn btn-outline-primary button title-text">Ingresar</button></a>
+					<a href=""><button type="button" class="btn btn-outline-primary button title-text">Unirse</button></a>
+					<a href="../Formulario/LoginMain.html"><button type="button" class="btn btn-outline-primary button title-text">Ingresar</button></a>
 					<button type="button" class="btn btn-outline-primary button"> <a href="../carritocompras/Carrito.html"
 						class="text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button>
-				  </form>
+				 
+				</div>
 				</div>
 			  </div>
 		</nav>
@@ -105,25 +107,7 @@
 									 title="Letras y números. Tamaño mínimo: 5. Tamaño máximo: 40" />
 								<div class="input-group-append">
 									<button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
-									<script type="text/javascript">
-										function mostrarPassword(){
-												var cambio = document.getElementById("txtPassword");
-												if(cambio.type == "password"){
-													cambio.type = "text";
-													$('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
-												}else{
-													cambio.type = "password";
-													$('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
-												}
-											} 
-											
-											$(document).ready(function () {
-											//CheckBox mostrar contraseña
-											$('#ShowPassword').click(function () {
-												$('#Password').attr('type', $(this).is(':checked') ? 'text' : 'password');
-											});
-										});
-										</script>
+									
 								</div>
 									</div>
 										</div>
@@ -133,7 +117,7 @@
 										registro</button>
 								</div>
 							</form>
-							<div class="row justify-content-center" style="text-align: center;"><a data-toggle="tab" href="#signin">Ya tengo una cuenta</a></div>
+							<div class="row justify-content-center" style="text-align: center;"><a href="/Formulario/LoginMain.html">Ya tengo una cuenta</a></div>
 						</div>
 					</div>
 				</div>

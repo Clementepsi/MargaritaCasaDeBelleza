@@ -53,7 +53,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   color: #ffffff;
@@ -205,7 +205,7 @@ optgroup,
 textarea {
   margin: 0;
   font-family: inherit;
-  font-size: inherit;
+  font-size:20px;
   line-height: inherit; }
 
 button,
@@ -309,22 +309,22 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 20px; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 20px; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 20px; }
 
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 20px; }
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 20px; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 20px; }
 
 .lead {
   font-size: 1.25rem;
@@ -8205,7 +8205,7 @@ h1, h2, h3, h4, h5,
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;  
     font-weight: 700;
-    font-size: 12px;
+    font-size: 17px;
     letter-spacing: 1px;
     color: black; }
 
@@ -8295,3 +8295,4 @@ textarea.form-control {
         .titulo{
           margin-bottom: 50px;
         }
+        
