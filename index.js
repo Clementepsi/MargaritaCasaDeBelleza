@@ -93,7 +93,7 @@ const teamData = [
     },
     {
         category: "skinCare",
-        img: "./Assets/suero_pestañas.png",
+        img: "./Assets/suero_pestanias.png",
         name: "Suero para pestañas",
         description: "El suero crecimiento de pestañas, MARGARITA ha sido formulado para las mujeres que desean tener pestañas mas largas, abundantes y fuertes. Es perfecto para esas mujeres que tienen pestañas naturalmente pequeñas y debiles, que usan pestañas postizas o han usado extensiones de pestañas. La formula hace pestañas mas largas y gruesas. se puede tener hermosas pestañas en muy poco tiempo. ",
         isPromo: false,
@@ -213,12 +213,16 @@ function onClickCategory(categoria) {
 
 function hideLanding(hide){
     var container = document.getElementById("container-landing");
+    var shippingInfo = document.getElementById("shipping-info");
     if (hide) {
         container.style.display = "none";
+        shippingInfo.style.display = "none";
     }else{
         container.style.display = "block";
+        shippingInfo.style.display = "block";
     }
 }
+
 
 function loadProducts(productsData) {
     var container = document.getElementById("product-container");
