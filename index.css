@@ -17,8 +17,12 @@ header nav {
 }
 
 body {
-    background-color: #1a2c5a;
     min-height: 100vh;
+}
+.page-content {
+    position: relative;
+    background-color: #1a2c5a;
+    z-index: 1;
 }
 
 .title {
@@ -109,16 +113,12 @@ body {
     font-weight: bold;
 }
 
-.footer{
-    width: 100%;
-    bottom: 0;
-}
-
-.landing-image{
+.landing-video{
     height: auto !important;
     min-height: 95vh !important;
-    width: 100% !important;
+    width: 85% !important;
     object-fit: fill;
+    aspect-ratio: 16/9;
 }
 
 .landing-content{
@@ -140,3 +140,46 @@ body {
     margin-top: 20px;
     font-size: 1.4rem;
 }
+
+.card-img-top{
+    aspect-ratio: 1/1;
+}
+
+.container-shipping {
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.free-shipping {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-shipping{ 
+    aspect-ratio: 1/1;
+    width: 300px;
+}
+
+.title-cards{
+    font-weight: bold;
+    color: #CEAF6D;
+    
+}
+
+
+.footer{
+    background-color: #FFF;
+    display: flex;
+}
+
+#productos {
+    padding: 10vh;
+}
+
+.nav-text {
+    font-size: 1.7rem;
+}
+
+
+  
