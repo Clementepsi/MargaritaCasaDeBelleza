@@ -12,7 +12,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <div class="container-fluid">
                 <a class="navbar-brand " href="#">
-                  <span class="text-primary fs 5 fw-bold title title-text">MCDB</span>
+                  <span class="fs 5 fw-bold title title-text">MCDB</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="" aria-label="Toggle navigation">
@@ -21,10 +21,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link active title-text title-text"  onclick="onClickCategory('')" aria-current="page" href="#">Inicio </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active title-text" href="#">¿Quienes somos?</a>
+                      <a class="nav-link active title-text" href="#">¿Quiénes somos?</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link active title-text" href="#">Contacto</a>
@@ -32,7 +29,7 @@
                   </ul>
                   <form class="d-flex">
                     <input class="form-control me-2 title-text" type="busqueda" placeholder="Búsqueda" aria-label="Búsqueda">
-                    <button type="button" class="btn btn-outline-primary buttonHead"> <a href="#"
+                    <button type="button" class="btn buttonHead"> <a href="#"
                         class="text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button>
                   </form>
                 </div>
@@ -40,9 +37,9 @@
             </nav>
         </header>
         <section class="backleaf">
-        <div class="container">
+        <div class="container2 bordes">
             <div class="row">
-                <div class="col-xs-12 col-md-4">
+                <div class="col-xs-12 col-md-4 background2 separado">
                     <h3>Agregar un producto</h3>
 
                     <form id="frmAgregar">
@@ -55,28 +52,28 @@
                             <input type="number" id="txtCantidad" class="form-control" value="1" min="1">
                         </div>
                         <div class="form-group text-right">
-                            <button class="btn btn-danger" id="btnLimpiar"> <i class="fa fa-ban"></i> Limpiar carrito</button>
+                            <button class="btn btn-danger bordes1" id="btnLimpiar"> <i class="fa fa-ban"></i> Limpiar carrito</button>
                             <button type="submit" id="btnAgregar" class="btn btn-primary"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </form>
                 </div>
 
-                <div class="col-xs-12 col-md-8">
+                <div class="col-xs-12 col-md-8 background2 separado">
                     <hr class="hidden-md hidden-lg">
                     <h3>Carrito de compras</h3>
-                    <table class="table table-bordered table-striped white1">
-                        <thead class="white1">
-                            <tr class="white1">
-                                <th width="30%" class="white1">Producto</th>
-                                <th width="10%" class="white1">Cantidad</th>
-                                <th width="25%" class="white1">Precio unitario</th>
-                                <th width="25%" class="white1">Total</th>
-                                <th width="10%" class="white1">Eliminar</th>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th width="30%">Producto</th>
+                                <th width="10%">Cantidad</th>
+                                <th width="25%">Precio unitario</th>
+                                <th width="25%">Total</th>
+                                <th width="10%">Eliminar</th>
                             </tr>
                         </thead>
-                        <tbody id="tblCarrito" class="white1">
-                            <tr class="white1">
-                                <td colspan="5" class="white1">No hay productos en el carrito</td>
+                        <tbody id="tblCarrito">
+                            <tr>
+                                <td colspan="5">No hay productos en el carrito</td>
                             </tr>
                         </tbody>
                     </table>

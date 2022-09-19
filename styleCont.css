@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-* {
+body {
     box-sizing: border-box;
     font-family: 'Libre Baskerville',sans-serif;
 }
+.blockquote2 {
+    font-size: 1.4rem;
+    font-family: 'Inter', sans-serif;
+  }
+  
 .container1,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
     width: 100%;
     padding-right:var(--bs-gutter-x,.75rem);

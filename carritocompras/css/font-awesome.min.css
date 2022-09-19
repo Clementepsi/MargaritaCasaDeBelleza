@@ -1,3 +1,10 @@
+.container2{
+  --bs-gutter-x:1.5rem;
+  --bs-gutter-y:0;
+  width:100%;
+  padding-right:calc(var(--bs-gutter-x) * .5);
+  margin: 0;
+}
 .title {
     color: #CEAF6D !important; 
   }
@@ -14,15 +21,23 @@ header{
     color :black !important;
 }
 section{
-    color: #fff;
-    height: 70vh;
-}
-.white1{
-    color: #fff;
+    height: auto;
 }
 .backleaf{
     background-image: url(../assets/fondoc.png);
 }
+.background2{
+  background-color: #fff;
+}
+.bordes{
+  padding: 140px 140px;
+}
+.bordes1{
+  margin: 5px;
+  padding: 8px 3px;
+  ;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
