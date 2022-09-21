@@ -8109,8 +8109,7 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important; }
   .container {
     min-width: 992px !important; }
-  .navbar {
-    display: none; }
+  
   .badge {
     border: 1px solid #000; }
   .table {
@@ -8271,28 +8270,3 @@ textarea.form-control {
         border: 1px solid transparent;
         background: #1a2c5a;
         color: #fff; }
-
-   
-        .title {
-          color: #CEAF6D !important; 
-        }
-        #navbarDropdown{
-          color: black;
-         
-        }
-        .button{
-          background-color:#CEAF6D !important;
-          border: #1A2C5A ;
-          color: white !important;
-        }
-        header{
-          font-family: 'Inter', sans-serif;
-          color :black !important;
-        }
-        .text__description{
-          text-align: justify center;
-        }
-        .titulo{
-          margin-bottom: 50px;
-        }
-        

@@ -2,40 +2,66 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Tabla dinámica</title>
+        <link rel="shortcut icon" type="image/png" href="/Assets/logoPNG.png" />
+        <title>Carrito</title>
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="/index.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    </head>
+        <link rel="stylesheet" href="/sharedStyle.css" />
+      </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand " href="#">
-                  <span class="fs 5 fw-bold title title-text">MCDB</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active title-text" href="#">¿Quiénes somos?</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active title-text" href="#">Contacto</a>
-                    </li>
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2 title-text" type="busqueda" placeholder="Búsqueda" aria-label="Búsqueda">
-                    <button type="button" class="btn buttonHead"> <a href="#"
-                        class="text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button>
-                  </form>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+              <span class="fw-bold title title-text">MCDB</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="true"
+              aria-label=""
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active title-text nav-text"
+                    href="../HTML/QuienesSomos.html"
+                    >¿Quiénes somos?</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active title-text nav-text" href="../contacto.html"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2 title-text"
+                  type="busqueda"
+                  placeholder="Búsqueda"
+                  aria-label="Búsqueda"
+                />
+                <div class="d-flex gap-2">
+                  <a href="../Registro/registro.html"><button type="button" class="btn  button title-text">Unirse</button></a>
+                  <a href="../Formulario/LoginMain.html"><button type="button" class="btn  button title-text">Ingresar</button></a>
+                  <button type="button" class="btn  button"> <a href="/carritocompras/Carrito.html" class = "text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button> 
                 </div>
-              </div>
-            </nav>
-        </header>
+                
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
         <section class="backleaf">
         <div class="container2 bordes">
             <div class="row">
@@ -84,10 +110,10 @@
         <div class="container">
           <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Aviso de privacidad</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contactanos</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
+              <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+              <li class="nav-item"><a href="/avisoPriv.html" class="nav-link px-2 text-muted">Aviso de privacidad</a></li>
+              <li class="nav-item"><a href="/contacto.html" class="nav-link px-2 text-muted">Contactanos</a></li>
+              <li class="nav-item"><a href="/HTML/QuienesSomos.html" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
             </ul>
             <p class="text-center text-muted">© 2022 Margarita Casa de la Belleza, Inc</p>
           </footer>

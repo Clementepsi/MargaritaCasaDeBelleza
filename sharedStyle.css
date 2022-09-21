@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&family=Poppins:wght@400;600&display=swap');
+
+.footer{
+    background-color: #FFF;
+    display: flex;
+}
+
+header nav {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 0;
+    flex-wrap: wrap;
+    background-color: #FDFFFC;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    color: #CEAF6D !important; 
+  }
+
+  .button{
+    background-color:#CEAF6D !important;
+    border: #1A2C5A ;
+    color: white !important;
+  }
+
+  .nav-text {
+    font-size: 1.2rem;
+}
+
+.title-text{
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-text {
+    font-size: 1.2rem;
+}

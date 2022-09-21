@@ -13,6 +13,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/sharedStyle.css" />
     <link rel="stylesheet" href="/index.css" />
     <link
       rel="stylesheet"
@@ -32,7 +33,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" onclick="onClickCategory('')" href="#">
+          <a class="navbar-brand" onclick="onClickCategory('')" href="/index.html">
             <span class="text-primary fs 5 fw-bold title title-text">MCDB</span>
           </a>
           <button
@@ -70,9 +71,9 @@
                 aria-label="Búsqueda"
               />
               <div class="d-flex gap-2">
-                <button type="button" class="btn btn-outline-primary button">Unirse</button> 
-                <button type="button" class="btn btn-outline-primary button">Ingresar</button>
-                <button type="button" class="btn btn-outline-primary button"> <a href="#" class = "text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button> 
+                <a href="../Registro/registro.html"><button type="button" class="btn btn-outline-primary button title-text">Unirse</button></a>
+                <a href="../Formulario/LoginMain.html"><button type="button" class="btn btn-outline-primary button title-text">Ingresar</button></a>
+                <button type="button" class="btn btn-outline-primary button"> <a href="/carritocompras/Carrito.html" class = "text-decoration-none text-white"><i class="bi bi-cart3"></i></a> </button> 
               </div>
               
             </form>
