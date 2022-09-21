@@ -1,0 +1,53 @@
+
+body {
+    background-color: #1A2C5A;
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+  }
+  .title {
+    color: #CEAF6D !important; 
+  }
+  .button{
+    background-color:#CEAF6D !important;
+    border: #1A2C5A ;
+    color: white !important;
+  }
+
+  .titulo{
+    margin-bottom: 50px;
+  }
+  
+  .nav-text {
+    font-size: 1.2rem;
+}
+
+  .imagen__margarita{
+    background-color: white;
+    border-radius: 20px;
+    border-color: #CEAF6D;
+    margin-left: 100px;
+    width: 293px;
+  }
+
+  .footer{
+    background-color: #FFF;
+    display: flex;
+  }
+  
+  .textPriv {
+    text-align: justify;
+  }
+
+  .actualizacion {
+    text-align: right;
+  }
+
+  header nav {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 0;
+    flex-wrap: wrap;
+    background-color: #FDFFFC;
+}
