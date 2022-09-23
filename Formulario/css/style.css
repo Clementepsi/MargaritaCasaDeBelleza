@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- :root {
+ /*:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8233,18 +8233,18 @@ h1, h2, h3, h4, h5,
   /* .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     /* color:grey ; } */
-  .form-control::-moz-placeholder {
+/*  .form-control::-moz-placeholder {
     /* Firefox 19+ */
-    color: rgba(255, 255, 255, 0.3) !important; }
+ /*   color: rgba(255, 255, 255, 0.3) !important; }
   .form-control:-ms-input-placeholder {
     /* IE 10+ */
-    color: rgba(255, 255, 255, 0.3) !important; }
+ /*   color: rgba(255, 255, 255, 0.3) !important; }
   .form-control:-moz-placeholder {
     /* Firefox 18- */
-    color: rgba(255, 255, 255, 0.3) !important; } */
+ /*   color: rgba(255, 255, 255, 0.3) !important; } */
   
 
-textarea.form-control {
+/*textarea.form-control {
   height: inherit !important; }
 
 .btn {
@@ -8294,4 +8294,155 @@ textarea.form-control {
         }
         .titulo{
           margin-bottom: 50px;
-        }
+        }*/
+
+        /*Google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/*Formateo universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Registro/images/fondo.jpg);
+}
+.form{
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color:#fdfffc;
+}
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #1a2c5a;
+    text-align: center;
+}
+.form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.field input,
+ .field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #b68d35;
+    border-radius: 20px;
+}
+.fiel input:focus{
+    border-bottom-width: 2px;
+}
+.form button{
+    color: white;
+    background-color: #ceaf6d;
+}
+.field button:hover{
+    background-color:#b68d35;
+    transition:all 0.3s ease;
+    cursor: pointer;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link span a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook {
+    color: #FFF;
+    background-color: #4267b2;
+}
+img.google-img{
+   position: absolute;
+   top: 50%;
+   left: 15px;
+   transform: translateY(-50%);
+   height: 20px;
+   width: 20px;
+   object-fit: cover;
+
+}
+a.google{
+    border: 1px solid #CACACA;
+}
+a.google span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: rgb(7, 7, 7);
+}
+
+.logo{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgb(221, 76, 76);
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+
+@media screen and(max-width: 400px) {
+    .form{
+        padding: 15px 10px;
+    }
+
+}
+
+

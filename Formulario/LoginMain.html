@@ -1,4 +1,4 @@
-<!doctype html>
+<!--<!doctype html>
 <html lang="en">
 
 <head>
@@ -19,9 +19,9 @@
 
     <link href="assets/sticky-footer-navbar.css" rel="stylesheet">
    
-	<link rel="preconnect" href="https://fonts.googleapis.com"><!--letra 700-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><!--letra 700
 
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet"><!--letra 700-->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet"><!--letra 700
 	
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
@@ -198,6 +198,88 @@
 		
 	</div>
       </div>
+
+</body>
+
+</html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../Formulario/css/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header id="header">Bienvenido!</header>
+
+                <form id="form" action="#">
+                    <div class="field input-field">
+                        <input type="email" name="email" id="email" placeholder="Correo electrónico">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" name="" id="password" placeholder="Contraseña">
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">¿Olvidaste tu contraseña?</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button type="submit">Iniciar Sesión</button>
+                        <p class="warnings" id="warnings"></p>
+                    </div>
+
+
+
+                    <div class="form-link">
+                        <span>¿Aun no tienes una cuenta?</span><a href="../Registro/registro.html" class="resgister-link"> Registrarse</a>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <span>Ingresa con tu cuenta de Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="../Formulario/images/Google.png" alt="Google" class="google-img">
+                    <span>Ingresa con tu cuenta de Google</span>
+                </a>
+            </div>
+
+            <div>
+                <img src="../Formulario/images/margarita.jpeg" alt="logo" class="logo">
+            </div>
+
+        </div>
+
+        </div>
+
+
+        <!--JavaScript-->
+        <script src="../Formulario/js/Login.js"></script>
 
 </body>
 
