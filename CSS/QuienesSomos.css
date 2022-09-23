@@ -7,19 +7,13 @@ body {
 .title {
   color: #CEAF6D !important; 
 }
-#navbarDropdown{
-  color: black;
- 
-}
+
 .button{
   background-color:#CEAF6D !important;
   border: #1A2C5A ;
   color: white !important;
 }
-header{
-  font-family: 'Inter', sans-serif;
-  color :black !important;
-}
+
 .text__description{
   text-align: justify center;
 }
@@ -77,3 +71,37 @@ header{
   font-family: 'Inter', sans-serif;
 }
 
+
+.footer{
+  background-color: #FFF;
+  display: flex;
+}
+
+header nav {
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 0;
+  flex-wrap: wrap;
+  background-color: #FDFFFC;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  color: #CEAF6D !important; 
+}
+
+.button{
+  background-color:#CEAF6D !important;
+  border: #1A2C5A ;
+  color: white !important;
+}
+
+.nav-text {
+  font-size: 1.2rem;
+}
+
+.title-text{
+  font-family: 'Inter', sans-serif;
+}

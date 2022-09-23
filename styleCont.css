@@ -86,18 +86,7 @@ body {
 .button{
     background-color:#CEAF6D !important;
   }
-.nav2 {
-    --bs-nav-link-padding-x: 1rem;
-    --bs-nav-link-padding-y: 0.5rem;
-    --bs-nav-link-font-weight: ;
-    --bs-nav-link-hover-color: var(--bs-link-hover-color);
-    --bs-nav-link-disabled-color: #6c757d;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
+
 .contactotitulo{
     font-family: 'Inter', sans-serif;
 }
@@ -107,20 +96,4 @@ body {
     font-family:'Inter', sans-serif;
     font-size: small;
     color:crimson;
-}
-.title {
-    color: #CEAF6D !important; 
-  }
-#navbarDropdown{
-    color: black;
-   
-  }
-.buttonHead{
-    background-color:#CEAF6D !important;
-    border: #1A2C5A ;
-    color: white !important;
-  }
-header{
-    font-family: 'Inter', sans-serif;
-    color :black !important;
 }

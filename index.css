@@ -12,7 +12,6 @@ header nav {
     border: 0;
     top: 0;
     flex-wrap: wrap;
-    font-size: 29px;
     background-color: #FDFFFC;
 }
 
@@ -27,10 +26,7 @@ body {
 
 .title {
     color: #CEAF6D !important; 
-  }
-  #navbarDropdown{
-    color: black;
-  }
+}
   .button{
     background-color:#CEAF6D !important;
     border: #1A2C5A ;
@@ -102,6 +98,7 @@ body {
 .card-btn {
     background-color: #CEAF6D;
     border: 0px;
+
 }
 
 .title-text{
@@ -175,10 +172,6 @@ body {
 
 #productos {
     padding: 10vh;
-}
-
-.nav-text {
-    font-size: 1.7rem;
 }
 
 
