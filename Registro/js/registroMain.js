@@ -132,6 +132,38 @@ function validarFormulario(e) {
     }
   }
 }
+document.querySelector('#btnSend').addEventListener("click", function(e){
+  let nombre = document.querySelector('#nombre');
+  let apellido = document.querySelector('#apellido');
+  let email = document.querySelector('#email');
+  let password = document.querySelector('#password');
+  console.log(nombre.value);
+  console.log(apellido.value);
+  console.log(email.value);
+  console.log(password.value);
+  const data = {
+    nombre: nombre.value,
+    apellido: apellido.value,
+    email: email.value,
+    password: password.value
+  };
+  
+  const url = "http://localhost:8080/api/clientes/";
+  fetch(url,{
+    method:"POST",
+    headers:{
+      'Content-Type':'application/json',
+    },
+      body: JSON.stringify(data),
+    })
+    .then(response => response.text())
+    .then(data =>{
+      console.log(`Mensaje: ${data}`);
+    })
+    .catch((error) =>{
+      console.log(`Mensaje: ${error}`)
+    })
+})
 
 function mensajeError(mensajeDeError) {
   mensaje.textContent = mensajeDeError;
